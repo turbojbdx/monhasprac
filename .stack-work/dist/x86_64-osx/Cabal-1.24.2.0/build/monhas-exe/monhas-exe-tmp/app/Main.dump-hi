@@ -1,0 +1,153 @@
+
+==================== FINAL INTERFACE ====================
+2017-10-30 22:27:20.010807 UTC
+
+interface main@main:Main 8002
+  interface hash: c3445a205810370c72517c74023ce680
+  ABI hash: 1314dbdb0ba2d88b87fdfd46242dfdf0
+  export-list hash: 806a4037d9bd483363ce8d5dfc6a7f3e
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 670773cee140e64956c149fdf0c4ddf3
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: MonadRandom-0.5.1@MonadRandom-0.5.1-6uvIhB08u1RHnyKFfb2cRN
+                      array-0.5.1.1@array-0.5.1.1 base-4.9.1.0
+                      base16-bytestring-0.1.1.6@base16-bytestring-0.1.1.6-4E2p94lTx8gIceMhu8Kl9o
+                      base64-bytestring-1.0.0.1@base64-bytestring-1.0.0.1-4O9TExPPz6eI82Yj7L4SIj
+                      basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bson-0.3.2.3@bson-0.3.2.3-624NgoYjPs81IR7rQyCA2D
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      cryptohash-0.11.9@cryptohash-0.11.9-2WYUzBpyPf06mfaV235EXK
+                      cryptonite-0.23@cryptonite-0.23-55TM7xoZVZb4nKMzQwVdg8
+                      data-binary-ieee754-0.4.4@data-binary-ieee754-0.4.4-7iiF2mP1jcB6tVSPgIyBOi
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      entropy-0.3.8@entropy-0.3.8-14HIw40nRRY968j6AdY1H4
+                      foundation-0.0.16@foundation-0.0.16-COExPNsqFDVHjuiyp4aaDi
+                      ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      hashtables-1.2.2.1@hashtables-1.2.2.1-9cxVj3Rv4gl9EXt1N3YUJV
+                      integer-gmp-1.0.0.1
+                      lifted-base-0.2.3.11@lifted-base-0.2.3.11-Ei0JSPdt7KOCD2HIA5jFqV
+                      memory-0.14.8@memory-0.14.8-IRCH9pn6TWc7UN52YzPheg
+                      monad-control-1.0.2.2@monad-control-1.0.2.2-1Ci8dYJ8Tb7E3HTcTqOb8l
+                      mongoDB-2.3.0@mongoDB-2.3.0-2K89QMyxyVl4zxc7iIap8m
+                      monhas-0.1.0.0@monhas-0.1.0.0-JLSpu8JwjiBD8ZfbAAx7mB
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz
+                      nonce-1.0.4@nonce-1.0.4-5fejSyqCGbVIbnmnVdRr5r
+                      parsec-3.1.11@parsec-3.1.11-1aqiimsgq2dCv7eoaC8WuX
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      random-shuffle-0.0.4@random-shuffle-0.0.4-DbASQFPGfOt3FEamOnbdrs
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      time-1.6.0.1@time-1.6.0.1 transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-base-0.4.4@transformers-base-0.4.4-GKSs0LKukAL8ymq2naFmrH
+                      unix-2.7.2.1@unix-2.7.2.1
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.Block
+         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.UArray
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         mongoDB-2.3.0@mongoDB-2.3.0-2K89QMyxyVl4zxc7iIap8m:Database.MongoDB.Internal.Util
+         network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz:Network.Socket
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: MonadRandom-0.5.1@MonadRandom-0.5.1-6uvIhB08u1RHnyKFfb2cRN:Control.Monad.Trans.Random.Lazy
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.Block.Base
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.BoxedArray
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.Monad
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.MutableBuilder
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.NonEmpty
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.Numerical.Subtractive
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.String
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.String.Encoding.ASCII7
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.String.Encoding.UTF16
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.String.Encoding.UTF32
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.Types.AsciiString
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.Types.OffsetSize
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.UArray.Base
+                         basement-0.0.3@basement-0.0.3-9VABBoFJLfV9rowquvHEzl:Basement.UTF8.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         foundation-0.0.16@foundation-0.0.16-COExPNsqFDVHjuiyp4aaDi:Foundation.Array.Bitmap
+                         foundation-0.0.16@foundation-0.0.16-COExPNsqFDVHjuiyp4aaDi:Foundation.Array.Chunked.Unboxed
+                         foundation-0.0.16@foundation-0.0.16-COExPNsqFDVHjuiyp4aaDi:Foundation.Collection.Buildable
+                         foundation-0.0.16@foundation-0.0.16-COExPNsqFDVHjuiyp4aaDi:Foundation.Collection.Element
+                         foundation-0.0.16@foundation-0.0.16-COExPNsqFDVHjuiyp4aaDi:Foundation.Collection.Keyed
+                         foundation-0.0.16@foundation-0.0.16-COExPNsqFDVHjuiyp4aaDi:Foundation.Collection.Mutable
+                         foundation-0.0.16@foundation-0.0.16-COExPNsqFDVHjuiyp4aaDi:Foundation.Tuple
+                         monad-control-1.0.2.2@monad-control-1.0.2.2-1Ci8dYJ8Tb7E3HTcTqOb8l:Control.Monad.Trans.Control
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  monhas-0.1.0.0@monhas-0.1.0.0-JLSpu8JwjiBD8ZfbAAx7mB:Lib 4568fb2cabf17a1261389b82c2114a0b
+d6831ef04cb9301b090dfae6f7bb7ec7
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Main.$trModule2 Main.$trModule1) -}
+847d9fc3b8e6f0b424199f36b4999bb2
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Main"#) -}
+24ef6042833e75ffd7aa98b83ecca98d
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+272eafcd91694f02f865e8f4c8ec570b
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Lib.someFunc1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+6462e821451bb150976e809f1e305ae9
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Lib.someFunc1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
